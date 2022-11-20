@@ -11,11 +11,6 @@ img,
 p,
 div,
 h1,
-h3 {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
 
 a {
   color: #000;
@@ -26,7 +21,7 @@ a {
 h1 {
   text-align: left;
   font-size: 40px;
-  font-family: "Varela Round", sans-serif;
+  font-family: "Verdana", sans-serif;
   font-weight: normal;
   margin-bottom: 30px;
 }
@@ -34,7 +29,7 @@ h1 {
 nav {
   position: fixed;
   overflow: hidden;
-  background: #1799b6;
+  background: #76a5af;
   -webkit-box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
   -moz-box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
   box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
@@ -103,47 +98,34 @@ nav a:hover:after {
 }
 
 .namestart {
-  font-family: "Varela Round", sans-serif;
-  font-size: 30px;
+  font-family: "Verdana", sans-serif;
+  font-size: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
 .nameabout {
-  font-family: "Titillium Web", sans-serif;
-
+  font-family: "Verdana", sans-serif;
+  text-align: left;
   line-height: 30px;
   margin-right: 50px;
   margin-left: 50px;
-  font-size: 20px;
+  font-size: 10px;
 }
 
-.socialicon img {
-  width: 40px;
-  height: 40px;
+.contact {
+  font-family: "Verdana", sans-serif;
+  text-align: left;  
+  font-size: 10px;
   margin-top: 30px;
-}
+  margin-bottom: 30px;
 
+}
 .about {
   text-align: center;
   margin-bottom: 50px;
   margin-left: 50px;
   margin-right: 50px;
-}
-
-.skills {
-  border-radius: 20px;
-  height: 30px;
-  width: 600px;
-  background-color: #dbdbdb;
-}
-
-.skill {
-  font-family: "Titillium Web", sans-serif;
-  font-size: 20px;
-  text-align: left;
-  margin-bottom: 5px;
-  margin-top: 20px;
 }
 
 .html {
@@ -191,57 +173,6 @@ nav a:hover:after {
   background-color: #1799b6;
 }
 
-.services {
-  text-align: left;
-  margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.service-details div {
-  width: 70%;
-  height: 120px;
-  margin-bottom: 20px;
-}
-
-.service-details div img {
-  margin-top: 10px;
-  width: 100px;
-  height: 100px;
-  float: left;
-}
-
-.service-details h3 {
-  font-family: "Titillium Web", sans-serif;
-  font-size: 26px;
-}
-
-.service-details p {
-  font-size: 20px;
-  margin-right: 10px;
-  font-family: "Varela Round", sans-serif;
-}
-
-.blog {
-  margin-left: 50px;
-}
-
-.blog img {
-  width: 300px;
-  height: 300px;
-  margin-right: 20px;
-  margin-bottom: 30px;
-}
-
-.contact {
-  margin-left: 50px;
-}
-
-.contact-socialicon {
-  text-align: center;
-  margin-top: 150px;
-  margin-bottom: 20px;
-}
 
 /* /////////////////////footer///////////////////////////////// */
 
@@ -289,3 +220,5 @@ footer p {
     margin-bottom: 60px;
   }
 }
+
+
