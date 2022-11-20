@@ -26,56 +26,47 @@ h1 {
   margin-bottom: 30px;
 }
 
-nav {
-  position: fixed;
-  overflow: hidden;
-  background: #76a5af;
-  text-align: left;
-  width: 250px;
-  height: 100%;
-
-  margin-left: 200px;
-}
-
-nav img {
-  border-radius: 50%;
-  margin-top: 30px;
-  width: 170px;
-  height: 170px;
-}
-
 .headname {
   font-size: 30px;
-  font-family: "Ma Shan Zheng", cursive;
+  font-family: "Verdana", cursive;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-nav ul {
-  font-family: "Verdana", sans-serif;
-  line-height: 50px;
-  font-size: 20px;
-  width: 100%;
-  background-color: rgb(255, 255, 255);
+ul {
+    list-style-type: none;
+    font-family: "Verdana", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
 }
 
 li {
-  color: #000;
+    float: right;
 }
 
-nav a:after {
-  border-radius: 1em;
-  border-top: 0.1em solid #1799b6;
-  content: "";
-  position: absolute;
-  right: 100%;
-  bottom: 0.14em;
-  left: 0;
+li a {
+    display : block;
+    color: #034d16;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-nav a:hover:after {
-  right: 0;
+li a:hover:not(.active) {
+    color: #2f8d47;
 }
+
+.active {
+    color: #2f8d47;
+}
+
+
 
 .main {
   margin-left: 100px;
