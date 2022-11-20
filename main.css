@@ -30,9 +30,6 @@ nav {
   position: fixed;
   overflow: hidden;
   background: #76a5af;
-  -webkit-box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
-  -moz-box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
-  box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
   text-align: center;
   width: 250px;
   height: 100%;
