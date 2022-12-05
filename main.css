@@ -142,18 +142,18 @@ li a:hover:not(.active) {
 }
 
 .home {
-  margin-top: 150px;
+  margin-top: 120px;
   margin-bottom: 50px;
-  margin-left: 30px;
+  margin-left: 50px;
   margin-right: 5px;
   font-size: 16px;
 }
 
 .home img {
-  margin-top: 150px;
+  margin-top: 120px;
   width: 200px;
   height: 200px;
-  margin-left: 10px;
+  margin-left: 30px;
   border-radius: 50%;
   float:left;
 }
