@@ -169,7 +169,7 @@ dl a:hover:not(.active) {
 }
 
 .research {
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 50px;
   margin-left: 30px;
   margin-right: 5px;
@@ -177,7 +177,7 @@ dl a:hover:not(.active) {
 }
 
 .teaching {
-  margin-top: 50px;
+  margin-top: 120px;
   margin-bottom: 50px;
   margin-left: 30px;
   margin-right: 5px;
@@ -185,7 +185,7 @@ dl a:hover:not(.active) {
 }
 
 .implications {
-  margin-top: 50px;
+  margin-top: 120px;
   margin-bottom: 50px;
   margin-left: 30px;
   margin-right: 5px;
