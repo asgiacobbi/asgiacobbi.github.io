@@ -13,6 +13,7 @@ body,
 img,
 p,
 a,
+u,
 nav,
 div,
 h2,
@@ -30,6 +31,10 @@ a {
 
 p {
   text-align : left;
+}
+
+u {
+    text-align : left ;
 }
 
 body {
