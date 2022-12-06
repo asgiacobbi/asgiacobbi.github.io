@@ -116,7 +116,6 @@ nav ul {
 
 li {
   color: #111;
-  margin-bottom: 5px;
   ligne-height: 2;
   
 }
@@ -132,6 +131,14 @@ li a {
 }
 
 li a:hover:not(.active) {
+    color: #25803b;
+}
+
+ .active {
+    color: #25803b;
+}
+
+dl a:hover:not(.active) {
     color: #25803b;
 }
 
